@@ -34,6 +34,10 @@
       {
         "name": "Github",
         "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/imgs/github.png"
+      },
+      {
+        "name": "Vscode",
+        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/imgs/vscode.png" 
       }
     ],
     "softSkills": [
