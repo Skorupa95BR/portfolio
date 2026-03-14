@@ -1,7 +1,7 @@
 {
   "name": "Guilherme Skorupa",
   "photo": "https://avatars.githubusercontent.com/u/114036401?v=4",
-  "job": "Full Stack Jr.",
+  "job": "Full Stack Developer",
   "location": "São Bernardo do Campo - SP",
   "phone": "(11) 9 5250-0054",
   "email": "guilherme1.skorupa@gmail.com",
@@ -77,7 +77,7 @@
       "description": [
             "Desenvolvimento de aplicações web utilizando React, JavaScript, HTML e CSS",
             "Criação e consumo de APIs REST com Node.js",
-            "Testes de integração e endpoints utilizando Postman",
+            "Teste e validação de APIs utilizando Postman",
             "Manipulação e consultas em banco SQL Server",
             "Containerização de ambientes com Docker",
             "Versionamento de código com Git e GitHub (Pull Requests e revisão de código)"
