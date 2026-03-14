@@ -74,7 +74,14 @@
     {
       "name": "Full Stack Developer / 4zOOM Business",
       "period": "2025 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "description": [
+            "Desenvolvimento de aplicações web utilizando React, JavaScript, HTML e CSS",
+            "Criação e consumo de APIs REST com Node.js",
+            "Testes de integração e endpoints utilizando Postman",
+            "Manipulação e consultas em banco SQL Server",
+            "Containerização de ambientes com Docker",
+            "Versionamento de código com Git e GitHub (Pull Requests e revisão de código)"
+      ]
     }
   ]
 }
