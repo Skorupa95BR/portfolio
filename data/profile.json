@@ -9,35 +9,39 @@
     "hardSkills": [
       {
         "name": "Html",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/imgs/html.png"
+        "logo": "https://github.com/Skorupa95BR/portfolio/blob/main/Assets/data/images/html.png"
       },
       {
         "name": "Css",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/imgs/css.png"
+        "logo": "https://github.com/Skorupa95BR/portfolio/blob/main/Assets/data/images/css.png"
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/images/js.png"
+        "logo": "https://github.com/Skorupa95BR/portfolio/blob/main/Assets/data/images/js.png"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/images/react.png"
+        "logo": "https://github.com/Skorupa95BR/portfolio/blob/main/Assets/data/images/react.png"
       },
       {
         "name": "Node",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/images/nodejs.png"
+        "logo": "https://github.com/Skorupa95BR/portfolio/blob/main/Assets/data/images/nodejs.png"
       },
       {
         "name": "Docker",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/images/docker.png"
+        "logo": "https://github.com/Skorupa95BR/portfolio/blob/main/Assets/data/images/docker.png"
+      },
+      {
+        "name": "Git",
+        "logo": "https://github.com/Skorupa95BR/portfolio/blob/main/Assets/data/images/git.png"
       },
       {
         "name": "Github",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/images/github.png"
+        "logo": "https://github.com/Skorupa95BR/portfolio/blob/main/Assets/data/images/github.png"
       },
       {
         "name": "Vscode",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/images/vscode.png" 
+        "logo": "https://github.com/Skorupa95BR/portfolio/blob/main/Assets/data/images/vscode.png" 
       }
     ],
     "softSkills": [
