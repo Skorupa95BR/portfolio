@@ -72,7 +72,8 @@
       "url": "https://github.com/Skorupa95BR/pokedex_react",
       "github": true,
       "deploy": "https://skorupa-pokedex.vercel.app/",
-      "demoText": "Ver projeto"
+      "demoText": "Ver projeto",
+      "customClass": "text-purple-400 hover:underline"
     }
   ],
   "professionalExperience": [
