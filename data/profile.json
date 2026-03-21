@@ -64,7 +64,8 @@
       "url": "https://github.com/Skorupa95BR/fullstack-task-manager",
       "github": true,
       "deploy": "https://fullstack-task-manager-one.vercel.app/login",
-      "demoText": "Testar aplicação (com conta demo) 🚀"
+      "demoText": "Testar aplicação 🚀",
+      "textCod": "Código"
     },
     {
       "title": "Pokedex - React",
@@ -73,7 +74,8 @@
       "github": true,
       "deploy": "https://skorupa-pokedex.vercel.app/",
       "demoText": "Ver projeto",
-      "customClass": "text-purple-400 hover:underline"
+      "customClass": "text-purple-400 hover:underline",
+      "textCod": "Código"
     }
   ],
   "professionalExperience": [
