@@ -17,27 +17,27 @@
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/imgs/js.png"
+        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/images/js.png"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/imgs/react.png"
+        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/images/react.png"
       },
       {
         "name": "Node",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/imgs/nodejs.png"
+        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/images/nodejs.png"
       },
       {
         "name": "Docker",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/imgs/docker.png"
+        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/images/docker.png"
       },
       {
         "name": "Github",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/imgs/github.png"
+        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/images/github.png"
       },
       {
         "name": "Vscode",
-        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/imgs/vscode.png" 
+        "logo": "https://raw.githubusercontent.com/Skorupa95BR/portfolio/refs/heads/main/data/images/vscode.png" 
       }
     ],
     "softSkills": [
