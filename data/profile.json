@@ -63,14 +63,16 @@
       "describle": "Aplicação completa com autenticação, API REST e persistência em banco de dados",
       "url": "https://github.com/Skorupa95BR/fullstack-task-manager",
       "github": true,
-      "deploy": "https://fullstack-task-manager-one.vercel.app/login"
+      "deploy": "https://fullstack-task-manager-one.vercel.app/login",
+      "demoText": "Testar aplicação (com conta demo) 🚀"
     },
     {
       "title": "Pokedex - React",
       "describle": "Criação de uma Pokedex consumindo uma API real",
       "url": "https://github.com/Skorupa95BR/pokedex_react",
       "github": true,
-      "deploy": "https://skorupa-pokedex.vercel.app/"
+      "deploy": "https://skorupa-pokedex.vercel.app/",
+      "demoText": "Ver projeto"
     }
   ],
   "professionalExperience": [
