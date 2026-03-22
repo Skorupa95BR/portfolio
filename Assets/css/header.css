@@ -26,13 +26,14 @@
     }
     .header .title {
         text-align: left;
+        align-items: flex-start;
     }
     .information {
-        align-items: flex-start;
+        align-items: flex-end;
         width: auto;
+        margin-left: auto;
     }
 }
-
 
 body {
     margin: 0;
@@ -88,10 +89,39 @@ main {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 20px rgba(168, 85, 247, 0.3);
 }
 
 .header .title {
     text-align: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.header .title span {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    color: #ffffff;
+}
+
+.header .role {
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    margin-top: 0;
+    letter-spacing: 0.2px;
+}
+
+.header .user-name {
+    font-size: 2rem;
+    color: #a855f7;
+    font-weight: 700;
+    margin: 0;
 }
 
 .information {
@@ -99,18 +129,18 @@ main {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 1.1rem;
-    color: #e3e3e3;
+    gap: 0.5rem;
+        margin: 2rem 0 0 0;
+        box-sizing: border-box;
 }
 
 .information p {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin: 0.5rem;
-    font-size: 1.125rem;
-
+       margin: 0;
+    font-size: 1rem;
+    opacity: 0.9;
+    
 }
 
 .information p::before {
@@ -118,10 +148,14 @@ main {
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-image: url('../img/icons/user.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
+    flex-shrink: 0;
+}
+
+.information .job::before {
+    background-image: url('../img/icons/user.svg');
 }
 
 .information .location::before {
@@ -134,4 +168,13 @@ main {
 
 .information .email::before {
     background-image: url('../img/icons/email.svg');
+}
+
+.information a {
+    transition: all 0.2s ease;
+}
+
+.information a:hover {
+    color: #a855f7;
+    text-decoration: none;
 } 

@@ -12,28 +12,55 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.portfolio li:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(168, 85, 247, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(168, 85, 247, 0.2);
 }
 
 .portfolio li .title {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 700;
     margin: 0;
-    margin-bottom: .5rem;
+    margin-bottom: 0.8rem;
+    color: #fff;
 }
 
 .portfolio li .title.github::before {
     content: "";
     display: inline-block;
-    width: 1rem;
-    height: 1rem;
+    width: 1.3rem;
+    height: 1.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url('../img/icons/github.svg');
-    margin-right: .5rem;
+    margin-right: .6rem;
+}
+
+.portfolio li .description {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 0 1.2rem 0;
+    line-height: 1.5;
+}
+
+.portfolio li .project-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: flex-start;
 }
 
 .portfolio li a {
@@ -41,11 +68,108 @@
     text-decoration: none;
 }
 
-.portfolio li a:hover {
-    text-decoration: underline;
-}
-
 #profile.portfolio {
     list-style: none;
     padding-left: 0;
+}
+
+/* Botão principal - DESTAQUE */
+.demo-btn {
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  width: fit-content;
+  
+  background: linear-gradient(135deg, #a855f7, #6366f1);
+  color: white;
+  
+  box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+  transition: all 0.3s ease;
+  
+  animation: glow 2.5s infinite ease-in-out;
+}
+
+.demo-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(168, 85, 247, 0.6);
+  text-decoration: none;
+}
+
+.demo-btn:active {
+  transform: translateY(0);
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+  }
+  50% {
+    box-shadow: 0 6px 25px rgba(168, 85, 247, 0.7);
+  }
+  100% {
+    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+  }
+}
+
+/* Link discreto para código */
+.repo-link {
+  display: inline-block;
+  width: auto;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  opacity: 0.75;
+}
+
+.repo-link:hover {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: underline;
+  opacity: 1;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 768px) {
+  .portfolio li {
+    padding: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .portfolio li .title {
+    font-size: 1.2rem;
+  }
+  
+  .portfolio li .project-links {
+    width: 100%;
+  }
+  
+  .demo-btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px 24px;
+    font-size: 14px;
+  }
+  
+  .repo-link {
+    display: block;
+    text-align: center;
+    margin-top: 4px;
+    padding: 8px 0;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .demo-btn {
+    padding: 11px 28px;
+    font-size: 14px;
+  }
+  
+  .portfolio li .title {
+    font-size: 1.3rem;
+  }
 }

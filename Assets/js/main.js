@@ -1,4 +1,3 @@
-
 // Função para exibir as infos do header
 function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile-photo');
@@ -46,11 +45,16 @@ function updateLanguages(profileData){
 function updatePortfolio (profileData){
     const portfolio = document.getElementById('profile.portfolio');
     portfolio.innerHTML = profileData.portfolio.map(project => {
-
         return `
             <li>
-                <span class="title${project.github ? ' github' : ''}">${project.name}</span>
-                <a href="${project.url}" target="_blank">${project.url}</a>
+                <h3 class="title${project.github ? ' github' : ''}">${project.title}</h3>
+                ${project.describle ? `<p class="description">${project.describle}</p>` : ''}
+                <div class="project-links">
+                    ${project.deploy ? `<a href="${project.deploy}" target="_blank" class="demo-btn">${project.demoText || 'Demo 🚀'}</a>` : ''}
+                    <a href="${project.url}" target="_blank" class="repo-link">
+                        ${project.textCod || 'Código'} 💻
+                    </a>
+                </div>
             </li>
         `;
     }).join('');

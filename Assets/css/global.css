@@ -33,8 +33,15 @@ main {
 }
 
 @media only screen and (min-width: 768px) {
-        .main{
-            max-width: 1024px;
-            margin: 1rem auto;
-        }
+    main{
+        max-width: 1024px;
+        margin: 1rem auto;
     }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        margin: 0.5rem;
+        padding: 0.8rem;
+    }
+}
