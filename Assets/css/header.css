@@ -93,6 +93,13 @@ main {
     box-shadow: 0 4px 20px rgba(168, 85, 247, 0.3);
 }
 
+@media only screen and (max-width: 480px) {
+    .header .photo {
+        width: 140px;
+        height: 140px;
+    }
+}
+
 .header .title {
     text-align: center;
     font-size: 1.75rem;

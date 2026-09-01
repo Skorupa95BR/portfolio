@@ -7,10 +7,35 @@
     font-size: 1.125rem;
 }
 
+.experience > li {
+    margin-bottom: 1.5rem;
+}
+
+.experience > li:last-child {
+    margin-bottom: 0;
+}
+
+.experience > li .title {
+    margin: 0 0 .5rem;
+}
+
 .experience li .period {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 0 0 1rem;
+}
+
+.experience > li > ul {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
+.experience > li > ul > li {
+    line-height: 1.5;
 }
 
 .experience li .period::before {

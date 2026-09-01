@@ -31,7 +31,7 @@ function updateSkills(profileData) {
 //Função para buscar os hardSkills
 function updateHardskills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills');
-    hardSkills.innerHTML = profileData.skills.hardSkills.map( skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"/>`).join('');
+    hardSkills.innerHTML = profileData.skills.hardSkills.map( skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}" width="50" height="50"/>`).join('');
    
 }
 
